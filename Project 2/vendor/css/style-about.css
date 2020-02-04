@@ -1,0 +1,207 @@
+/*--------------------------------------------------Nav------------------------------------------------------ */
+.nav {
+  background-color: #343a40;
+  position: sticky;
+  top: 0;
+  z-index: 5;
+}
+.nav .container span:first-child {
+  color: #fff;
+}
+.nav .container span:last-child {
+  color: #28a745;
+}
+.nav .container > a {
+  border-right: 1px solid blue;
+  border-left: 1px solid blue;
+  border-bottom: 1px solid blue;
+  font-size: 28px;
+  padding: 5px;
+  margin-top: -7px;
+}
+.nav .container .active {
+  background-color: #28a745;
+  margin-top: -11px;
+  margin-bottom: -11px;
+  padding-top: 18px;
+}
+.nav .container .nav-item,
+.dropdown-toggle {
+  color: #fff;
+}
+.nav .container .dropdown {
+  margin-top: 7px;
+  padding: 0 10px;
+}
+/*--------------------------------------------------button------------------------------------------------------ */
+.colors {
+  border: 1px blue solid;
+  width: 149px;
+  height: 100px;
+  position: fixed;
+  z-index: 300;
+  background-color: black;
+  opacity: 0.8;
+  display: none;
+}
+colors .togg {
+  left: -150px;
+}
+.colors h5 {
+  color: white;
+  font-weight: 700;
+}
+.colors ul {
+  list-style: none;
+  display: inline-flex;
+}
+
+.colors ul #red,
+.colors ul #yellow,
+.colors ul #blue,
+.colors ul #green {
+  width: 20px;
+  height: 20px;
+  margin-top: 20px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.colors ul #red {
+  background-color: red;
+  margin-left: -33px;
+}
+.colors ul #yellow {
+  background-color: yellow;
+}
+.colors ul #blue {
+  background-color: blue;
+}
+.colors ul #green {
+  background-color: green;
+}
+.settings i {
+  background-color: #28a745;
+  border: black solid 1px;
+  position: fixed;
+  left: 0px;
+  z-index: 3000;
+  cursor: pointer;
+  color: #fff;
+}
+.settings .tog {
+  position: fixed;
+  left: 150px;
+}
+/*--------------------------------------------------Sec-1------------------------------------------------------ */
+.sec-1 {
+  margin: 5% 0;
+}
+.sec-1 h1 {
+  font-weight: 800;
+  font-size: 55px;
+}
+.sec-1 h4 {
+  padding: 20px;
+  line-height: auto;
+  font-weight: 500;
+  font-size: 21px;
+  margin: 0 270px;
+}
+.sec-1 img {
+  padding: 3px;
+  border: 1px solid #111;
+}
+/* =================Media Queiry==================== */
+@media (min-width: 500px) and (max-width: 991px) {
+  .sec-1 h1 {
+    font-size: 50px;
+  }
+  .sec-1 h4 {
+    font-size: 17px;
+    margin: 0;
+  }
+  .sec-1 img {
+    width: 100%;
+  }
+}
+/*--------------------------------------------------Sec-2------------------------------------------------------ */
+.sec-2 {
+  margin: 5% 0;
+  padding: 30px 0;
+}
+/*--------------------------------------------------Sec-3------------------------------------------------------ */
+.sec-3 {
+  margin: 5% 0 0;
+  background-color: #eee;
+}
+
+.sec-3 h1 {
+  font-weight: 700;
+  padding: 50px 0 0;
+}
+.sec-3 p {
+  font-size: 20px;
+}
+/* =================Media Queiry==================== */
+@media (min-width: 500px) and (max-width: 991px) {
+  .sec-10 .container {
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 0;
+  }
+  .sec-3 h1 {
+    font-size: 30px;
+    padding-bottom: 20px;
+  }
+  .sec-3 p {
+    font-size: 16px;
+  }
+  .sec-3 button {
+    margin-bottom: 20px;
+  }
+}
+/*--------------------------------------------------Sec-11------------------------------------------------------ */
+.sec-11 {
+  background-color: #111;
+  padding-bottom: 40px;
+  padding-top: 20px;
+}
+.sec-11 h4 {
+  color: #28a745;
+  padding: 20px 0;
+}
+.sec-11 ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+.sec-11 ul a {
+  width: 30%;
+  padding: 5px 1px;
+  color: #aaa;
+}
+.sec-11 .active {
+  color: #28a745;
+  font-weight: 600;
+}
+.sec-11 h5 {
+  margin-top: -6px;
+}
+.sec-11 .media-body {
+  margin-bottom: 15px;
+}
+.sec-11 .row .last img {
+  border: 5px solid black;
+}
+/* =================Media Queiry==================== */
+@media (min-width: 500px) and (max-width: 767px) {
+  .sec-11 span img {
+    height: 35px;
+    width: 35px;
+  }
+  .sec-11 .media img {
+    height: 50px;
+  }
+  .sec-11 h4 {
+    padding: 30px 0;
+  }
+}
